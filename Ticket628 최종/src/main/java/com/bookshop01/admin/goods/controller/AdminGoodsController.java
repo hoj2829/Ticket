@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
-public interface AdminGoodsController {//한글 
+public interface AdminGoodsController {//�븳湲� 
 	public ModelAndView adminGoodsMain(@RequestParam Map<String, String> dateMap,HttpServletRequest request, HttpServletResponse response)  throws Exception;
 	public ResponseEntity addNewGoods(MultipartHttpServletRequest multipartRequest, HttpServletResponse response)  throws Exception;
 	public ResponseEntity modifyGoodsInfo( @RequestParam("goods_id") String goods_id,
@@ -26,3 +26,4 @@ public interface AdminGoodsController {//한글
 	public void modifyGoodsImageInfo(MultipartHttpServletRequest multipartRequest, HttpServletResponse response)  throws Exception;
 	public String iddelete(int id);
 }
+//안녕하세요.
