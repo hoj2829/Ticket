@@ -26,4 +26,4 @@ public interface AdminGoodsController {//�븳湲�
 	public void modifyGoodsImageInfo(MultipartHttpServletRequest multipartRequest, HttpServletResponse response)  throws Exception;
 	public String iddelete(int id);
 }
-//안녕하세요.
+//안녕하세요.허유정이에요!
