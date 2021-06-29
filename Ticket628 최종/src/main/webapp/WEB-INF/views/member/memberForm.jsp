@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <script>
-
+/* tell은 안써요 */
 
 function execDaumPostcode() {
   new daum.Postcode({
